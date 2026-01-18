@@ -74,7 +74,7 @@ func Desktop(ctx context.Context, opts Options) error {
 		return err
 	}
 
-	if err = kvd.Set(ctx, key.App(), []byte(tclient.AppDesktop)); err != nil {
+	if err = kvd.Set(ctx, key.App(), []byte(tclient.AppCustom)); err != nil {
 		return err
 	}
 

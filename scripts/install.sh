@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-OWNER="iyear"
+OWNER="FeilongAI"
 REPO="tdl"
 LOCATION="/usr/local/bin"
 
